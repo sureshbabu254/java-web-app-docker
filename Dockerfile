@@ -1,1 +1,3 @@
-FROM tomcat:8.0.20-jre8
+FROM ubuntu
+MAINTAINER suresh babu
+RUN sudo apt-get update
